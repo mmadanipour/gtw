@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+body {
+    background-color: #e6ecff;
+}
+div{
+	text-align: center
+}
+h2{
+	text-align: center
+}
+.wrapper{
+	text-align: center
+}
+.btn{
+	position: absolute;
+    top: 50%;
+}
