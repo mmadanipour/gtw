@@ -23,7 +23,7 @@
 		<servlet-name>StartupService</servlet-name>
 		<display-name>StartupService</display-name>
 		<description></description>
-		<servlet-class>com.gtw.StartupService</servlet-class>
+		<servlet-class>com.gtw.common.StartupService</servlet-class>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 

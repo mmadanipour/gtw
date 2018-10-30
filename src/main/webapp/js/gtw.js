@@ -17,7 +17,7 @@ function startGame() {
 
     $
 	    .ajax({
-		url : 'http://localhost:8080/guess-the-word/rest/game/start/?name='
+		url : '/guess-the-word/rest/game/start/?name='
 			+ document.getElementById("name_id").value,
 		type : "GET",
 
@@ -58,7 +58,7 @@ function checkGameState() {
 
     $.ajax({
 	type : "POST",
-	url : "http://localhost:8080/guess-the-word/rest/game/checkState/",
+	url : "/guess-the-word/rest/game/checkState/",
 	// The key needs to match your method's input parameter
 	// (case-sensitive).
 	data : JSON.stringify(state_request_dto),
@@ -194,7 +194,7 @@ function checkAction() {
 
     $.ajax({
 	type : "POST",
-	url : "http://localhost:8080/guess-the-word/rest/game/checkAction/",
+	url : "/guess-the-word/rest/game/checkAction/",
 	// The key needs to match your method's input parameter
 	// (case-sensitive).
 	data : JSON.stringify(action_dto),
